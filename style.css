@@ -1,0 +1,170 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(223, 210, 210, 0.486);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(88, 92, 88);
+    width: 100%;
+}
+
+.header__logo {
+    width: 500px;
+}
+
+.logo-apple {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+nav ul {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(218, 214, 15);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.main__content-center {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+
+.grid-icon {}
+
+button {
+    background-color: rgb(218, 214, 15);
+    border: none;
+    padding: 4px;
+    margin-top: 10px;
+    width: 130px;
+    height: 30px;
+    font-weight: 1000;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#email {
+    padding: 5px;
+    width: 220px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+.grid-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    height: 125px;
+    color: rgb(218, 214, 15);
+    font-size: 50px;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+}
+
+
+.price-apple {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(88, 92, 88);
+    padding: 15px 0px;
+}
+
+.tenor {
+    width: 340px;
+    height: auto;
+    border: 2px solid black;
+    align-items: center;
+    font-size: 18px;
+    margin: 12px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(218, 214, 15);
+    font-weight: normal;
+    margin: 15px;
+    height: 40px;
+    width: 100px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer li {
+    list-style-type: none;
+    padding: 0px 8px;
+    color: rgb(218, 214, 15);
+}
+
+footer ul,
+footer p {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(218, 214, 15);
+}
+
+footer {
+    background-color: rgb(88, 92, 88);
+    ;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
