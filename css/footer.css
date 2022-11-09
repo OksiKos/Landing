@@ -1,0 +1,18 @@
+.footer li {
+    list-style-type: none;
+    padding: 0px 8px;
+    color: var(--decoration-line-color);
+}
+
+.footer ul,
+.footer p {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--decoration-line-color);
+}
+
+.footer {
+    background-color: var(--color-text-light-background);
+    padding: 10px 15px;
+    margin-top: 15px;
+}

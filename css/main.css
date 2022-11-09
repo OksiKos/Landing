@@ -1,0 +1,95 @@
+.main__form {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main__content-center {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+button {
+    background-color: var(--decoration-line-color);
+    border: none;
+    padding: 4px;
+    margin-top: 10px;
+    width: 130px;
+    height: 30px;
+    font-weight: 1000;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#email {
+    padding: 5px;
+    width: 220px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+.grid-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    height: 125px;
+    color: var(--decoration-line-color);
+    font-size: 50px;
+}
+
+.video-content {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+}
+
+
+.price-apple {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--color-text-light-background);
+    padding: 15px 0px;
+}
+
+.tenor {
+    width: 340px;
+    height: auto;
+    border: 2px solid var(--color-background-dark);
+    align-items: center;
+    font-size: 18px;
+    margin: 12px;
+    text-align: center;
+    background-color: var(--color-text-dark-background);
+}
+
+.price-button {
+    background-color: var(--decoration-line-color);
+    font-weight: normal;
+    margin: 15px;
+    height: 40px;
+    width: 100px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+
+}
