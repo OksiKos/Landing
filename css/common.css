@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+:root{
+    --decoration-line-color: rgb(238, 180, 20);
+    --color-text-light-background: #505155;
+    --color-text-dark-background: rgba(255,255,255,0.6);
+    --light-text-color: #fff;
+}

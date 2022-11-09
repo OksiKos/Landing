@@ -1,10 +1,7 @@
-body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    background-color: rgba(223, 210, 210, 0.486);
-}
+@import url(common.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
 
 .header {
     position: fixed;
@@ -13,7 +10,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(88, 92, 88);
+    background-color: var(--color-text-light-background);
     width: 100%;
 }
 
@@ -44,7 +41,7 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(218, 214, 15);
+    color: var( --decoration-line-color);
 }
 
 .main__form {
@@ -63,7 +60,7 @@ a {
 }
 
 button {
-    background-color: rgb(218, 214, 15);
+    background-color: var( --decoration-line-color);
     border: none;
     padding: 4px;
     margin-top: 10px;
@@ -95,12 +92,12 @@ button {
     justify-content: center;
     margin-right: 30px;
     height: 125px;
-    color: rgb(218, 214, 15);
+    color: var( --decoration-line-color);
     font-size: 50px;
 }
 
-iframe {
-    width: 600px;
+.video-content {
+    width: 80%;
     height: 400px;
     margin: 0 auto;
 }
@@ -113,7 +110,7 @@ iframe {
 .price-apple {
     font-size: 18px;
     font-weight: bold;
-    background-color: rgb(88, 92, 88);
+    background-color: var(--color-text-light-background);
     padding: 15px 0px;
 }
 
@@ -125,11 +122,11 @@ iframe {
     font-size: 18px;
     margin: 12px;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--color-text-dark-background);
 }
 
-.btn {
-    background-color: rgb(218, 214, 15);
+.price-button {
+    background-color: var(--decoration-line-color);
     font-weight: normal;
     margin: 15px;
     height: 40px;
@@ -142,22 +139,21 @@ iframe {
 
 }
 
-footer li {
+.footer li {
     list-style-type: none;
     padding: 0px 8px;
-    color: rgb(218, 214, 15);
+    color: var(--decoration-line-color);
 }
 
-footer ul,
-footer p {
+.footer ul,
+.footer p {
     display: flex;
     justify-content: flex-end;
-    color: rgb(218, 214, 15);
+    color: var(--decoration-line-color);
 }
 
-footer {
-    background-color: rgb(88, 92, 88);
-    ;
+.footer {
+    background-color: var(--color-text-light-background);
     padding: 10px 15px;
     margin-top: 15px;
 }
